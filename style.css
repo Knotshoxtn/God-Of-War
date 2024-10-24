@@ -1,0 +1,38 @@
+.images-row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.images-row .image-container {
+    flex: 0 0 30%; 
+    margin: 40px; 
+    max-width: 200px;
+}
+
+.jogos .image-container img {
+    width: 100%;
+    height: auto;
+    max-height: 150px; 
+    border: 5px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.inicio .image-container img {
+    width: 100%;
+    height: auto;
+    max-height: 150px; 
+    border: 5px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+}
+
+.contato1 h3{
+    display: inline;
+
+}
+
+.links:hover {
+    font-size: 15px;
+}
